@@ -1,0 +1,10 @@
+#!C:\Users\KR\Desktop\python_work\FASTAPI\fvenv\Scripts\python.exe
+import sys
+# import the code from this package
+from shell_command_logger.replay import main_replay
+
+if __name__ == "__main__":
+    arguments = sys.argv[1:]
+    exit_code = main_replay(arguments)
+    sys.exit(exit_code)
+
